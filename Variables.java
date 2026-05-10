@@ -38,6 +38,13 @@ public class Variables {
     then that binary codes will convert 1's compliment and then in 2's compliment 
     after that all if the first value of the binary code is one then the actual value is negativeg */
 
+    // floating values in java 
+
+    float j = 0.7f;
+
+    System.out.printf("%.20f%n",j);
+
+
     }
     
 }
