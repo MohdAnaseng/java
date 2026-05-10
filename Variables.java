@@ -28,6 +28,12 @@ public class Variables {
 
     System.out.println("converstion value--"+ x + ","+ y + "," + z);
 
+    // negative value in java 
+
+    int n = -100;
+
+    System.out.println("negative number=" + n );
+
     }
     
 }
