@@ -33,6 +33,10 @@ public class Variables {
     int n = -100;
 
     System.out.println("negative number=" + n );
+    /*
+    for the negative value firstly java convert the value in binary code
+    then that binary codes will convert 1's compliment and then in 2's compliment 
+    after that all if the first value of the binary code is one then the actual value is negativeg */
 
     }
     
