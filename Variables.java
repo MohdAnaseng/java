@@ -51,5 +51,14 @@ public class Variables {
         ib = ab ;
 
         System.out.println(ib);
+
+            
+     // character to int conversion
+        char ca = 'a';
+        int ic ;
+
+        ic = ca ;
+    System.out.println(ic);
+        
     }
 }
