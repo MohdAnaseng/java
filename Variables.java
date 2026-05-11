@@ -44,7 +44,12 @@ public class Variables {
 
     System.out.printf("%.20f%n",j);
 
+    // implicit conversion byte to int
+        byte ab = 24;
+        int  ib ;
 
+        ib = ab ;
+
+        System.out.println(ib);
     }
-    
 }
