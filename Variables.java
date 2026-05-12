@@ -59,6 +59,14 @@ public class Variables {
 
         ic = ca ;
     System.out.println(ic);
+
+    // explicit converstion
+        int id = 300;
+        byte bi ;
+
+        bi = (byte) id;
+        
+        System.out.println(bi);
         
     }
 }
