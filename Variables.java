@@ -67,6 +67,13 @@ public class Variables {
         bi = (byte) id;
         
         System.out.println(bi);
+
+    // truncating conversion
+    float uf = 15.685f;
+    int fi ;
+
+    fi = (int) uf ;
+    System.out.println(fi);
         
     }
 }
