@@ -3,10 +3,10 @@ public class Operator {
     {
 
     // operator in java
-    // arithmetic operator
+    // arithmetic operator-- +, -, *, /, %, +=, -=, /=, %=, ++, --
 
-    int a = 10 ;
-    int b = 5 ;
+    int a = 5 ;
+    int b = 10 ;
 
     int d = a + b;
     int e = a - b;
@@ -15,6 +15,15 @@ public class Operator {
 
     
     System.out.println("values--" +d+","+e+","+f+","+g);
+     
+    int h = a + 2;
+
+    //h = h + 2;
+    h +=2; // h = h + 2;
+    h -=2; // h = h - 2;
+    h /=3; // h = h / 3;
+    h %=5; // h = h % 5;
+    System.out.println(h);
 
     }
 }
