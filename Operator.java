@@ -25,5 +25,27 @@ public class Operator {
     h %=5; // h = h % 5;
     System.out.println(h);
 
+    // pre increment and post increment/decrement
+
+    int i = 6;
+    i++; // i = i + 1; // i =+ 1
+    i--; // i = i - 1; // i =+ 1
+
+    System.out.println(i);
+
+    int j = 7;
+    j++; // postfix increment
+    ++j; // prefix increment
+
+    // j = 9
+    int k = j++;// K = j; J = J + 1;
+    System.out.println(k+ "," +j);
+
+    int l =  ++j; // L = j + 1;
+    System.out.println(j+ "," +l);
+
+    
+
+
     }
 }
