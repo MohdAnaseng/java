@@ -45,7 +45,19 @@ public class Operator {
     System.out.println(j+ "," +l);
 
     
+    // Relationl operator ; == , != , < , > , <= , >=
+        int m = 10;
+        int n = 5;
+    
+        boolean o = (m == n);
+        boolean p = (m != n);
 
+        System.out.println(o+ "," +p);
+
+        boolean q = (m <= n);
+        boolean r = (m >= n);
+
+        System.out.println(q+ "," +r);
 
     }
 }
