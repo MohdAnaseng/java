@@ -75,5 +75,12 @@ public class Variables {
     fi = (int) uf ;
     System.out.println(fi);
         
+
+    // byte convertion 
+
+    byte bb = 50;
+    bb = (byte) (bb * 2);
+
+    System.out.println(bb);
     }
 }
