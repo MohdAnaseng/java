@@ -59,5 +59,15 @@ public class Operator {
 
         System.out.println(q+ "," +r);
 
+        //Bitwise operator;
+
+        int s = 2;
+        int x = 3;
+
+        int v = s & x ;
+
+
+        System.out.println(v);
+
     }
 }
