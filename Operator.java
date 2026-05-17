@@ -67,9 +67,10 @@ public class Operator {
         int v = s & x ;
         int u = s | x ;
         int y = s ^ x ;
+        int z = ~ s ;
 
 
-        System.out.println(v+ "," +u+ "," +y);
+        System.out.println(v+ "," +u+ "," +y+ "," +z);
 
     }
 }
