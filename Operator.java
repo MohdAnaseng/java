@@ -72,5 +72,10 @@ public class Operator {
 
         System.out.println(v+ "," +u+ "," +y+ "," +z);
 
+        int a1 = 2;
+        a1 = a1 << 1;
+
+        System.out.println(a1);
+
     }
 }
