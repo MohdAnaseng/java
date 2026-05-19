@@ -62,7 +62,7 @@ public class Operator {
         //Bitwise operator;
 
         int s = 2;
-        int x = 3;
+        int x = 6;
 
         int v = s & x ;
         int u = s | x ;
