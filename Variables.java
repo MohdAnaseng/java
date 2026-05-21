@@ -69,7 +69,7 @@ public class Variables {
         System.out.println(bi);
 
     // truncating conversion
-    float uf = 15.685f;
+    float uf = 15.786f;
     int fi ;
 
     fi = (int) uf ;
@@ -78,7 +78,7 @@ public class Variables {
 
     // byte convertion 
 
-    byte bb = 50;
+    byte bb = 75;
     bb = (byte) (bb * 2);
 
     System.out.println(bb);
