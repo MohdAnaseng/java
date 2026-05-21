@@ -61,7 +61,7 @@ public class Variables {
     System.out.println(ic);
 
     // explicit converstion
-        int id = 300;
+        int id = 400;
         byte bi ;
 
         bi = (byte) id;
