@@ -13,8 +13,11 @@ public class Subtraction {
         System.out.print("Enter second number: ");
         int num2 = input.nextInt();
 
+        System.out.print("Enter third number: ");
+        int num3 = input.nextInt();
+
         // Perform the subtraction
-        int difference = num1 - num2;
+        int difference = num1 - num2 - num3;
 
         // Display the result
         System.out.println("The difference is: " + difference);
