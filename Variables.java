@@ -78,7 +78,7 @@ public class Variables {
 
     // byte convertion 
 
-    byte bb = 67;
+    byte bb = 70;
     bb = (byte) (bb * 2);
 
     System.out.println(bb);
