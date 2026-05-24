@@ -22,7 +22,7 @@ public class Operator {
     h +=2; // h = h + 2;
     h -=2; // h = h - 2;
     h /=3; // h = h / 3;
-    h %=5; // h = h % 5;
+    h %=7; // h = h % 5;
     System.out.println(h);
 
     // pre increment and post increment/decrement
