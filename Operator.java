@@ -15,7 +15,7 @@ public class Operator {
 
     
     System.out.println("values--" +d+","+e+","+f+","+g);
-     
+    
     int h = a + 2;
 
     //h = h + 2;
@@ -27,7 +27,7 @@ public class Operator {
 
     // pre increment and post increment/decrement
 
-    int i = 6;
+    int i = 8;
     i++; // i = i + 1; // i =+ 1
     i--; // i = i - 1; // i =+ 1
 
