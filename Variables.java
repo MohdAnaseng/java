@@ -45,7 +45,7 @@ public class Variables {
     System.out.printf("%.20f%n",j);
 
     // implicit conversion byte to int
-        byte ab = 30;
+        byte ab = 31;
         int  ib ;
 
         ib = ab ;
