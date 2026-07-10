@@ -57,7 +57,7 @@ public class conditional {
             //Switch condition
             int m = 3;
 
-            switch(m) {
+            switch(m) { // limitation --> byte,short,int,char,
                 case 1:
                     System.out.println("m is 1");
                     break;
@@ -65,11 +65,30 @@ public class conditional {
                     System.out.println("m is 2");
                     break;
                 case 3:
-                    System.out.println("m i s 3");
+                    System.out.println("m is 3");
                     break;
                 default:
-                    System.out.println("m is greater than 3")
-
+                    System.out.println("m is greater than 3");
             } 
-        }        
-}   
+                
+               //Nested switch
+                int j = 4;
+                int k = 5;
+                switch(j) {
+                case 4:
+                    System.out.println("j is 6");
+                    break;
+                case 5: 
+                    switch(k) {
+                        case 1:
+                            break;
+                        case 2:
+                            break;
+                    }
+                default:
+                    System.out.println("j is not 4 && 5");
+                    break;
+                    }
+                        
+    }
+}        
